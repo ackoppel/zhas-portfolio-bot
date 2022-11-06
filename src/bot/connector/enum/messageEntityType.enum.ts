@@ -1,0 +1,17 @@
+export enum MessageEntityType {
+  bot_command = 'bot_command',
+  // mention = 'mention',
+  // hashtag = 'hashtag',
+  // cashtag = 'cashtag',
+  // url = 'url',
+  // email = 'email',
+  // phone_number = 'phone_number',
+  // bold = 'bold',
+  // italic = 'italic',
+  // underline = 'underline',
+  // strikethrough = 'strikethrough',
+  // code = 'code',
+  // pre = 'pre',
+  // text_link = 'text_link',
+  // text_mention = 'text_mention',
+}

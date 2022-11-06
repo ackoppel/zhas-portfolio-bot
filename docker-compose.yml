@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "2341:2341"
+    environment:
+      POSTGRES_DB: zhas-portfolio
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+  redis:
+    image: redis:alpine
+    restart: always
+    ports:
+      - "2021:2021"
+
+volumes:
+  db-data:
